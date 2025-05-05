@@ -1,12 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Apr  1 18:47:44 2025
-
-@0401 For better combination with GUI
-
-@0425 Major updates so this one will be completely different.
-
-The current structure is preprocessing the G-code, extract XYZUVW coordinates then plots.
+The current structure preprocesses the G-code, extracts XYZUVW coordinates, and plots them.
 --------------------------------------------------------------------------------
 *  New functions:                                                              *
 *                                                                              *
@@ -14,18 +8,8 @@ The current structure is preprocessing the G-code, extract XYZUVW coordinates th
 *  comet_from_file(file_path)             Animates 2D motion + Top/Bottom plot *
 *  comet3_from_file(file_path)            Animates 3D motion + Top/Bottom plot *
 *  plot3d_static_from_file(file_path)     Static 3D plot + Top/Bottom plot     *
-*  save_to_excel(file_path)	              Saves data to Excel without prompt   *
+*  save_to_excel(file_path)	          Saves data to Excel without prompt   *
 --------------------------------------------------------------------------------
-
-Option for the animation:
-        # The comment section: play once and kill the window
-        # def animate():
-        #     for i in range(len(x)):
-        #         update(i)
-        #         window.update()
-        #         window.after(80)
-        #     # window.destroy()
-
 @author: kangputong
 """
 
