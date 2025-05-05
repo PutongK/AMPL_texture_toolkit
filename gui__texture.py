@@ -1,19 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Apr  1 18:34:31 2025
-
 GUI for texture patch
-In this version, the visualization part is taken via CLI
-
-Next verison using buttons is under development
-
-@0424 New integration here, combining with texture_morph_dual, with functions of:
-    1. Basic parameters: including spacing, indentation depth, angle
-    2. Basic directions: inward or outward (cause the bending)
-    3. Two modes: one-direction or zig-zag (hopefully causing the twist)
-    
-@0425 Imporvement on the GUI look   
-    Also, improvment on the visualization function, and run visualization with buttons
 
 @author: kangputong
 """
@@ -22,7 +9,7 @@ Next verison using buttons is under development
 import tkinter as tk
 from tkinter import ttk, messagebox
 from tkinter.filedialog import askdirectory
-from texture_morph_dual import Initializer, generate_control_pairs, reorder_control_points_dual, write_Gcodes
+from texture_dual import Initializer, generate_control_pairs, reorder_control_points_dual, write_Gcodes
 from texture_edge_new import generate_edge_gcode
 from ampl_visualization_GUI import AmplVisualization
 import os
