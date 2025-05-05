@@ -1,19 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Apr  4 14:07:12 2025
-
-@0401 An ultimate version for texture patch.
-
-@0404 Find a merge method instead
-@0410 The updated version uses a mirror-merge from ends inward to avoid cracks at the corners.\
-
-----------------------------------------------------------------------------------------------
-@0428 Updates:
-    Remove visualization related part. All visualization will be carried by the GUI
-
-@author: kangputong
-"""
-
 import os
 import numpy as np
 import math
