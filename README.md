@@ -1,6 +1,7 @@
 # AMPL_texture_toolkit
 Python scripts for generating and visualizing G-codes for surface texture patches.
 It is designed for precision incremental forming processes and supports both direct and mirrored motion strategies.
+
 <img width="1121" alt="screenshot" src="https://github.com/user-attachments/assets/df9f2f1d-0be8-4264-8fc8-1adf1c69b357" />
 
 ---
